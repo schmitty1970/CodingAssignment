@@ -1,2 +1,2 @@
-# CodingAssignment
-Public repository for interview coding assignment review
+# Coding Assignment
+Public repository for interview coding assignment review.
