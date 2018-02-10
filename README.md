@@ -31,3 +31,7 @@ You can use any data storage you like.  Lastly, create it as a project in a publ
 * The authorization of client calls in this implementation are for example purposes only.  As stated in code comments, one could use Thinktecture's Identity Server OAuth/OpenID Connect to implement a more secure inter-machine communication using the client credentials grant.
 * The file storage implementation in this project is also for example and/or testing purposes.  In a production implementation, the encrypted data and associated meta data should be stored in some type of database that also contains security features to further secure the data and access to the data.
 * Regarding the implementation of the AES encryption/decryption.  I wanted to demonstrate the use the .NET crypto classes in this assignment.  One could use an 'audited' implementation such as the Inferno Crypto Library (http://securitydriven.net/inferno/)  
+
+## Additional Notes
+* I would have configured a DI container, such as AutoFac, for use in the API to inject dependancies like the storage provider.
+* I would still add a logging mechanism, such as Log4Net.
