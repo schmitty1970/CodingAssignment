@@ -1,7 +1,7 @@
 # Coding Assignment
 Public repository for interview coding assignment review.
 
-## Requirement Provided
+## Requirements Provided
 A REST API to do basic data tokenization written in C#.  This API should have two endpoints, store and retrieve.
 1. Store endpoint
 * Accepts a piece of data
