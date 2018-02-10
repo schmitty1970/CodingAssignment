@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Services.Tokenization", "Example.Services.Tokenization\Example.Services.Tokenization.csproj", "{F3236BCF-93E2-48DC-9776-4629ECF2F287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Services.Tokenization.Tests", "Example.Services.Tokenization.Tests\Example.Services.Tokenization.Tests.csproj", "{B9E0F7E8-5C5B-49FF-AFA5-E9E009064CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Library.AesEncryption", "Example.Library.AesEncryption\Example.Library.AesEncryption.csproj", "{F68BEEC1-0F4F-45D4-A2C9-91978058ECAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Library.TokenStorage", "Example.Library.TokenStorage\Example.Library.TokenStorage.csproj", "{CCD77A63-56D8-4E66-A004-B740C93339DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Console.TestHarness", "Example.Console.TestHarness\Example.Console.TestHarness.csproj", "{D16CD1A0-B802-49EA-9375-E7211EFC9078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3236BCF-93E2-48DC-9776-4629ECF2F287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3236BCF-93E2-48DC-9776-4629ECF2F287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3236BCF-93E2-48DC-9776-4629ECF2F287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3236BCF-93E2-48DC-9776-4629ECF2F287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E0F7E8-5C5B-49FF-AFA5-E9E009064CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E0F7E8-5C5B-49FF-AFA5-E9E009064CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E0F7E8-5C5B-49FF-AFA5-E9E009064CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E0F7E8-5C5B-49FF-AFA5-E9E009064CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68BEEC1-0F4F-45D4-A2C9-91978058ECAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68BEEC1-0F4F-45D4-A2C9-91978058ECAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68BEEC1-0F4F-45D4-A2C9-91978058ECAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68BEEC1-0F4F-45D4-A2C9-91978058ECAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD77A63-56D8-4E66-A004-B740C93339DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD77A63-56D8-4E66-A004-B740C93339DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD77A63-56D8-4E66-A004-B740C93339DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD77A63-56D8-4E66-A004-B740C93339DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16CD1A0-B802-49EA-9375-E7211EFC9078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16CD1A0-B802-49EA-9375-E7211EFC9078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16CD1A0-B802-49EA-9375-E7211EFC9078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16CD1A0-B802-49EA-9375-E7211EFC9078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79485834-9D46-441D-ADAA-6578349E819F}
+	EndGlobalSection
+EndGlobal
