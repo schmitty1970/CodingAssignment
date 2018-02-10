@@ -28,6 +28,6 @@ You can use any data storage you like.  Lastly, create it as a project in a publ
 
 ## Notes on Security of this project
 * Calls from clients of this API should ALWAYS use TLS, in fact in production this API should be configured to ONLY accept HTTPS connections.  
-* The authorization of client calls in this implemenation are for example purposes only.  As stated in code comments, one could use Thinktecture's Identity Server OAuth/OpenID Connect to implement a more secure inter-machine communication using the client credentials grant.
-* The file storage implemenation in this project is also for example and/or testing purposes.  In a production implemenation, the encrypted data and associated meta data should be stored in some type of database that also contains security featres to further secure the data and access to the data.
-* Regarding the impelmentation of the AES encryption/dycrption.  I wanted to demonstrate the use the .NET crypto classes in this assignment.  One could use an 'audited' implemenation such as the Inferno Crypto Library (http://securitydriven.net/inferno/)  
+* The authorization of client calls in this implementation are for example purposes only.  As stated in code comments, one could use Thinktecture's Identity Server OAuth/OpenID Connect to implement a more secure inter-machine communication using the client credentials grant.
+* The file storage implementation in this project is also for example and/or testing purposes.  In a production implementation, the encrypted data and associated meta data should be stored in some type of database that also contains security features to further secure the data and access to the data.
+* Regarding the implementation of the AES encryption/decryption.  I wanted to demonstrate the use the .NET crypto classes in this assignment.  One could use an 'audited' implementation such as the Inferno Crypto Library (http://securitydriven.net/inferno/)  
