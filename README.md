@@ -33,5 +33,5 @@ You can use any data storage you like.  Lastly, create it as a project in a publ
 * Regarding the implementation of the AES encryption/decryption.  I wanted to demonstrate the use the .NET crypto classes in this assignment.  One could use an 'audited' implementation such as the Inferno Crypto Library (http://securitydriven.net/inferno/)  
 
 ## Additional Notes
-* I would have configured a DI container, such as AutoFac, for use in the API to inject dependancies like the storage provider.
+* I would have configured a DI container, such as AutoFac, for use in the API to inject dependencies like the storage provider.
 * I would still add a logging mechanism, such as Log4Net.
