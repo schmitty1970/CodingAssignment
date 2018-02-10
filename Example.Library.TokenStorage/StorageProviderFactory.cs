@@ -23,7 +23,7 @@ namespace Example.Library.TokenStorage
             }
             catch (Exception)
             {
-                //TODO: should provide some loggging, maybe Log4Net or another library, out of scope for this assignment
+                //TODO: should provide some logging, maybe Log4Net or another library, out of scope for this assignment
             }
             
 

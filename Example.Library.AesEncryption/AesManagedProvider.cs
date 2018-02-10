@@ -9,20 +9,20 @@ namespace Example.Library.AesEncryption
     /// A wrapper around the managed version of the .NET AES implementation.
     /// 
     /// 
-    /// Note: this is not FIPS compliant.  If you need a FIPS complian version
+    /// Note: this is not FIPS compliant.  If you need a FIPS compliant version
     /// you would need to implement one using the AesCryptoServiceProvider class.
     /// 
     /// For a more robust and audited implementation, One might consider using a component such as
     /// the Inferno Crypto Library (http://securitydriven.net/inferno/).  However,
-    /// for this interview coding task I wanted to demonstrate using the built in
+    /// for this interview coding task I wanted to demonstrate using the built in 
     /// .NET crypto classes.
     /// </summary>
     public class AesManagedProvider : IEncryptionProvider
     {
         /// <summary>
-        /// Excrypts the plain text value usisng the secret pass phase and non-secret salt 
+        /// Encrypts the plain text value ussng the secret pass phase and non-secret salt 
         /// to generate the key and initialization values.  This allows the use of any size
-        /// pass phrase eventhough AES only allows specific key sizes.
+        /// pass phrase even though AES only allows specific key sizes.
         /// </summary>
         /// <param name="plainText">Data to encrypt</param>
         /// <param name="passPhrase">Secret pass phrase that was used for encryption</param>

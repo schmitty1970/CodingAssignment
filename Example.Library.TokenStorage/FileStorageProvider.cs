@@ -9,7 +9,7 @@ namespace Example.Library.TokenStorage
 {
     /// <summary>
     /// An example of how one could store object, or arrays of objects in a file.
-    /// This would NOT be the storage mechanism in a production implemenation, this
+    /// This would NOT be the storage mechanism in a production implementation, this
     /// is for the coding assignment only.
     /// </summary>
     public sealed class FileStorageProvider : AbstractStorageProvider, ITokenStorageProvider
@@ -81,7 +81,7 @@ namespace Example.Library.TokenStorage
         {
             var data = new List<TokenStorageItem>();
 
-            //see if data already exists, if not return initalized list
+            //see if data already exists, if not return initialized list
             if (!File.Exists(FilePath))
                 return data;
 

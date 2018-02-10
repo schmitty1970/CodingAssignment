@@ -15,7 +15,7 @@ namespace Example.Services.Tokenization.Controllers
     {
         /// <summary>
         /// HTTP POST operation to take a plain text input, encrypt it, store it and return a Guid token that
-        /// can be used to retreive it
+        /// can be used to retrieve it
         /// </summary>
         /// <param name="plainText">The data to encrypt and store.</param>
         /// <returns>A Guid in string format, serving as the token associated with the value</returns>
@@ -51,7 +51,7 @@ namespace Example.Services.Tokenization.Controllers
         private ITokenStorageProvider GetStorageProvider()
         {
             //get the storage provider, based on config setting 
-            //Note: more robust implementation would probably use Dependancy Injection, for now using a factory
+            //Note: more robust implementation would probably use Dependency Injection, for now using a factory
             var storageProviderName = ConfigurationManager.AppSettings["ITokenStorageProviderName"];
             ITokenStorageProvider storage = StorageProviderFactory.Create(storageProviderName);
 
@@ -102,8 +102,5 @@ namespace Example.Services.Tokenization.Controllers
         //    return Ok(storage != null && storage.Delete(token));
         //}
         #endregion
-
-
-
     }
 }

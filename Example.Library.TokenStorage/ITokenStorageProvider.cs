@@ -19,7 +19,7 @@ namespace Example.Library.TokenStorage
         /// a guid token for it and stores it.
         /// </summary>
         /// <param name="plainText">Plain text value to be encrypted and stored.</param>
-        /// <returns>Guid string token that can be used to retreive, update or delete 
+        /// <returns>Guid string token that can be used to retrieve, update or delete 
         /// the value from storage</returns>
         string Create(string plainText);
 

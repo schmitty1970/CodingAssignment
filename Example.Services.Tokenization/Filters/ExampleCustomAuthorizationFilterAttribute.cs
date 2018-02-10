@@ -11,7 +11,7 @@ namespace Example.Services.Tokenization.Filters
     /// This is not production ready and is only a sample for this coding exercise.
     /// 
     /// In production, one could use an OAuth2/OpenID Connect service (ex. Thinktechture's Identity Server) to implement
-    /// server-to-server authenitication.
+    /// server-to-server authentication.
     /// </summary>
     /// 
     /// Test Using Fiddler posting to http://localhost:51211/api/store/ with some text in the body and the following headers
