@@ -26,6 +26,13 @@ You can use any data storage you like.  Lastly, create it as a project in a publ
 * Consider security throughout, even this is only a coding exercise
 * Comment code to explain my decisions, what changes I would have made it this was a production ready implementation, etc.
 
+## Layout of this solution
+**Example.Services.Tokenization** - the ASP.NET Web API 2 that implements the REST api defined in the requirements
+**Example.Library.AesEncryption** - a .NET Framework class library containing the encryption and related code.
+**Example.Library.TokenStorage** - a .NET Framework class library containing the storage code.  File storage is the only implementation for now.
+**Example.Services.Tokenization.Tests** - a unit test project for testing code in the class library projects.
+**Example.Console.TestHarness** - a .NET Framework console application that tests the system from a client applications perspective.
+
 ## Notes on Security of this project
 * Calls from clients of this API should ALWAYS use TLS, in fact in production this API should be configured to ONLY accept HTTPS connections.  
 * The authorization of client calls in this implementation are for example purposes only.  As stated in code comments, one could use Thinktecture's Identity Server OAuth/OpenID Connect to implement a more secure inter-machine communication using the client credentials grant.
@@ -35,3 +42,8 @@ You can use any data storage you like.  Lastly, create it as a project in a publ
 ## Additional Notes
 * I would have configured a DI container, such as AutoFac, for use in the API to inject dependencies like the storage provider.
 * I would still add a logging mechanism, such as Log4Net.
+
+## Notes on running this project locally
+* There are some (limited) unit tests Example.Services.Tokenization.Tests that can be run
+* You can set the Example.Services.Tokenization web api as the 1st startup project and the Example.Console.TestHarness as the second so that when you run or debug the local VS web server is ready before the test harness runs.
+* The application writes it's file based db to the C drive, you might have to adjust your ACL's or location that the file is written to, depending on your local configuration.
